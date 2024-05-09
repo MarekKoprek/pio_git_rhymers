@@ -7,9 +7,9 @@ import edu.kis.vh.nursery.factory.RhymersFactory;
 
 class RhymersDemo {
 
-    private static final String REJECTED_MESSAGE = "total rejected is ";
-	private static final int J_MAX = 3;
-	private static final int I_MAX = 15;
+    private static String REJECTED_MESSAGE = "total rejected is ";
+	private static int J_MAX = 3;
+	private static int I_MAX = 15;
 
 	public static void main(String[] args) {
         RhymersFactory factory = new DefaultRhymersFactory();
